@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inicio h1 {
+    color: #dcc69f;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+
+.input-group .name{
+    text-align: center;
+    width: 180px;
+    margin-top: 12px;
+    font-family: 'Crimson Text', serif;
+    color: #dcc69f;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.btn{
+    width: 65px;
+    height: 30px;
+    background-color:#dcc69f;
+    color: rgba(0, 0, 0, 0.753);
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    padding: 4px;
+}
+
+.carrusel{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+
